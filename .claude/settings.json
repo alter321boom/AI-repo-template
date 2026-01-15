@@ -1,0 +1,63 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git clone:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git diff:*)",
+
+      "Bash(docker-compose:*)",
+      "Bash(docker compose:*)",
+      "Bash(docker logs:*)",
+      "Bash(docker exec:*)",
+      "Bash(docker stop:*)",
+      "Bash(docker restart:*)",
+      "Bash(docker ps:*)",
+      "Bash(docker inspect:*)",
+      "Bash(docker run:*)",
+      // you should save data in host, if do not want to lose it after container removed
+      "Bash(docker volume rm:*)",
+      "Bash(docker rm:*)",
+      "Bash(docker start:*)",
+
+      "Bash(tree:*)",
+      "Bash(chmod:*)",
+      "Bash(curl:*)",
+      "Bash(echo:*)",
+      "Bash(ls:*)",
+      "Bash(mkdir:*)",
+      "Bash(ps:*)",
+      "Bash(ss:*)",
+      "Bash(cat:*)",
+      "Bash(ruff check:*)",
+      "Bash(find:*)",
+      "Bash(grep:*)",
+      "Bash(sort:*)",
+      "Bash(cut:*)",
+      "Bash(comm:*)",
+
+      "Bash(pip:*)",
+      "Bash(python:*)",
+      "Bash(uv run:*)",
+      "Bash(uv pip install:*)",
+      "Bash(uv sync:*)",
+
+      "WebSearch",
+      "mcp__web-reader__webReader",
+      "mcp__web-search-prime__webSearchPrime",
+      "mcp__github__get_file_contents",
+      "mcp__chrome-devtools__list_pages",
+      "mcp__chrome-devtools__navigate_page",
+      "mcp__chrome-devtools__new_page",
+      "mcp__chrome-devtools__take_snapshot",
+      "mcp__chrome-devtools__click",
+
+      "Skill(code-review)",
+      "Skill(update-root-docs)",
+      "Skill(commit)",
+      "Skill(bug-review-and-fix)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
