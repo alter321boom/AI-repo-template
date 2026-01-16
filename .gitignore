@@ -213,3 +213,6 @@ __marimo__/
 # AI files
 /.ai/
 /.claude/externals/
+/.mcp.json
+/.claude/local.settings.json
+/.mcp-prod.json

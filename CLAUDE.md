@@ -29,6 +29,7 @@ TODO: Add a brief project description here.
 ├── debug/                             # Temporary debugging files ONLY
 ├── docs/                              # Project documentation
 │   ├── AI-external-context/           # External system context for AI agents
+│   │   └── local.md                   # Local running environment info
 │   ├── blogs/                         # Blog posts and articles (best practices, tutorials, solutions)
 │   ├── development/                   # Date-based development plans (YY-MM-DD/)
 │   │   └── 26-01-09/                  # development notes for Jan 9, 2026
